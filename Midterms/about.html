@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Brew Haven</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="Brew Haven.jpg" alt="Brew Haven Logo" class="logo">
+            <h1>Brew Haven</h1>
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-banner">
+        <h2>About Brew Haven</h2>
+    </section>
+
+    <section class="about-content">
+        <div class="about-image">
+            <img src="INTERIOR.jpg" alt="Brew Haven Interior">
+        </div>
+        <div class="about-text">
+            <h2>Our Story</h2>
+            <p>Brew Haven Café is a cozy little coffee shop in the heart of town. It was started by someone who dreamed of creating a warm place where people could relax, enjoy fresh coffee, and feel at home. With soft music, comfy seats, and the smell of baked treats in the air, it quickly became a favorite spot for everyone.</p>
+            <p>People come to Brew Haven to meet friends, read books, or just enjoy a quiet moment. The café is known for its friendly staff, homemade pastries, and special drinks made with love. It's more than just a café—it's a place where good moments begin.</p>
+            
+            <h3>Our Mission</h3>
+            <p>At Brew Haven, we believe that great coffee can change the world. Our mission is to serve exceptional coffee while supporting sustainable farming practices and creating a warm, inclusive space for our community.</p>
+        </div>
+    </section>
+
+    <section class="values">
+        <h2>Our Values</h2>
+        <div class="values-container">
+            <div class="value">
+                <i class="fas fa-leaf"></i>
+                <h3>Sustainability</h3>
+                <p>We source our beans from farms committed to environmentally friendly practices and pay fair prices to support the livelihoods of coffee farmers.</p>
+            </div>
+            <div class="value">
+                <i class="fas fa-heart"></i>
+                <h3>Community</h3>
+                <p>We strive to create a welcoming space where everyone feels at home, and we actively participate in community events and charitable initiatives.</p>
+            </div>
+            <div class="value">
+                <i class="fas fa-star"></i>
+                <h3>Quality</h3>
+                <p>From bean selection to brewing technique, we maintain exacting standards to ensure every cup we serve is exceptional.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-section">
+            <h3>Brew Haven</h3>
+            <p>105 12th ave<br>Quezon City, Philippines, 1105</p>
+            <p>Phone: 0915 396 2553</p>
+            <p>Email: <a href="mailto:lavinaneil@gmail.com">lavinaneil@gmail.com</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>Connect With Us</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/BHavencafe" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/brew.havencafe/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>        
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get updates on special events and promotions</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Brew Haven. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

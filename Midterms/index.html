@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven - Specialty Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="Brew Haven.jpg" alt="Brew Haven Logo" class="logo">
+            <h1>Brew Haven</h1>
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Brew Haven</h2>
+            <p>Artisanal coffee in the heart of the city</p>
+            <a href="menu.html" class="btn">View Our Menu</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <i class="fas fa-coffee"></i>
+            <h3>Specialty Coffee</h3>
+            <p>Ethically sourced beans from around the world, roasted to perfection.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-bread-slice"></i>
+            <h3>Fresh Pastries</h3>
+            <p>Baked daily in our kitchen using only the finest ingredients.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-wifi"></i>
+            <h3>Free Wi-Fi</h3>
+            <p>Stay connected while enjoying your favorite brew.</p>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <h2>Featured Drinks</h2>
+        <div class="products">
+            <div class="product">
+                <img src="LAVENDER LATTE.jpg" alt="Specialty Latte">
+                <h3>Honey Lavender Latte</h3>
+                <p>Our signature latte infused with local honey and lavender.</p>
+                <span class="price">₱180.00</span>
+            </div>
+            <div class="product">
+                <img src="Vanilla Cold Brew (2).jpg" alt="Cold Brew">
+                <h3>Vanilla Cold Brew</h3>
+                <p>Smooth cold brew coffee with house-made vanilla syrup.</p>
+                <span class="price">₱150.00</span>
+            </div>
+            <div class="product">
+                <img src="SPICED CHAI LATTE.jpg" alt="Seasonal Drink">
+                <h3>Spiced Chai Latte</h3>
+                <p>A warming blend of chai spices with steamed milk.</p>
+                <span class="price">₱130.00</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"The best coffee I've ever had! The atmosphere is so cozy and welcoming."</p>
+            <cite>- Yuuki M.</cite>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Visit Us Today</h2>
+        <p>Start your morning right with our award-winning coffee</p>
+        <div class="hours">
+            <h3>Hours</h3>
+            <p>Monday - Friday: 6am - 8pm</p>
+            <p>Saturday - Sunday: 7am - 9pm</p>
+        </div>
+        <a href="contact.html" class="btn">Find Us</a>
+    </section>
+
+    <footer>
+        <footer>
+            <div class="footer-section">
+                <h3>Brew Haven</h3>
+                <p>105 12th ave<br>Quezon City, Philippines, 1105</p>
+                <p>Phone: 0915 396 2553</p>
+                <p>Email: <a href="mailto:lavinaneil@gmail.com">lavinaneil@gmail.com</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/BHavencafe" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/brew.havencafe/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get updates on special events and promotions</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Brew Haven. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
